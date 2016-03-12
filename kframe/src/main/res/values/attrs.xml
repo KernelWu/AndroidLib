@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LocusPattern">
+        <attr name="originalPoint" format="reference" />
+        <attr name="selectedPoint" format="reference" />
+        <attr name="traceLineDrawable" format="reference" />
+        <attr name="traceLineWidth" format="dimension" />
+    </declare-styleable>
+    <!-- bottom_load_listview -->
+    <declare-styleable name="BottomLoadListview">
+        <attr name="loadMode" format="integer">
+            <enum name="auto" value="32" />
+            <enum name="clickBottom" value="33" />
+        </attr>
+        <attr name="bottomProgressDrawable" format="reference" />
+    </declare-styleable>
+    <!-- refresh_listview -->
+    <declare-styleable name="RefreshViewStyle">
+        <attr name="loadmoreMode" format="integer">
+            <enum name="auto" value="16" />
+            <enum name="clickBottom" value="18" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Indicator">
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorWidth" format="dimension" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="indicatorPadding" format="dimension"/>
+        <attr name="indicatorPaddingLeft" format="dimension" />
+        <attr name="indicatorPaddingRight" format="dimension" />
+        <attr name="indicatorPaddingTop" format="dimension" />
+        <attr name="indicatorPaddingBottom" format="dimension" />
+    </declare-styleable>
+
+</resources>

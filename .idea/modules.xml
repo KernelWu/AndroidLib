@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFrame.iml" filepath="$PROJECT_DIR$/MyFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kdao/kdao.iml" filepath="$PROJECT_DIR$/kdao/kdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kdownload/kdownload.iml" filepath="$PROJECT_DIR$/kdownload/kdownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kframe/kframe.iml" filepath="$PROJECT_DIR$/kframe/kframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/khttp/khttp.iml" filepath="$PROJECT_DIR$/khttp/khttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjson/kjson.iml" filepath="$PROJECT_DIR$/kjson/kjson.iml" />
+    </modules>
+  </component>
+</project>

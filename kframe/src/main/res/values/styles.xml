@@ -1,0 +1,64 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="base_layout_m_m">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="base_layout_w_w">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="base_layout_m_w">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="base_layout_w_m">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="base_btn_field_style" parent="@style/base_layout_w_m">
+        <item name="android:background">@drawable/list_item_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="base_image_style" parent="@style/base_layout_w_w">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="divider_hor" parent="@style/base_layout_m_w">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@drawable/divider_hor</item>
+    </style>
+
+    <style name="divider_ver" parent="@style/base_layout_w_m">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/divider_vertical</item>
+    </style>
+
+    <style name="float_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+         <!-- 边框 -->	
+        <item name="android:windowFrame">@color/tranparent</item>
+        <item name="android:windowBackground">@color/tranparent</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="list_style" parent="@style/base_layout_m_m">
+        <item name="android:background">@color/tranparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">@drawable/list_item_background</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kutils</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 对话框 -->
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_warn">提示</string>
+    <string name="app_warn_exist_msg">是否退出应用？</string>
+
+    <!-- 网络 -->
+    <string name="app_net_exc">网络异常</string>
+    <string name="app_data_exception">获取数据异常</string>
+    <string name="app_re_load">点击这里重新加载</string>
+    <string name="app_check_net">无法连接服务器,请检查网络</string>
+
+    <!-- 登录相关 -->
+    <string name="login_no_login_yet">您尚未登录</string>
+    <string name="login_login_now">立即登录</string>
+    <string name="login_user_empty">用户名不能为空</string>
+    <string name="login_password_empty">密码不能为空</string>
+
+</resources>
